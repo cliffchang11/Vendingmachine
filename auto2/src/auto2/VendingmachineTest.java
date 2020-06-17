@@ -11,26 +11,13 @@ class VendingmachineTest {
 	@Test
 	void testPay1() {
 		Vendingmachine ven = new Vendingmachine();
-		assertEquals(10, ven.pay(20, "蝷行�偌"));
+		assertEquals(10, ven.pay(20, 0));
+		assertEquals(0, ven.pay(10, 0));
+		assertEquals(5, ven.pay(15,0));
+		assertEquals(-1, ven.pay(5, 0));
 	}
 	
-	@Test
-	void testPay2() {
-		Vendingmachine ven = new Vendingmachine();
-		assertEquals(0, ven.pay(10, "蝷行�偌"));
-	}
-
-	@Test
-	void testPay3() {
-		Vendingmachine ven = new Vendingmachine();
-		assertEquals(5, ven.pay(15, "蝷行�偌"));
-	}
 	
-	@Test
-	void testPay4() {
-		Vendingmachine ven = new Vendingmachine();
-		assertEquals(-1, ven.pay(5, "蝷行�偌"));
-	}
 	
 	@Test
 	void testEnoughMoney1() {
