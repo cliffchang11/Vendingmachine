@@ -4,12 +4,21 @@ import javax.swing.*;
 import java.awt.event.*;
 
 class CGameF extends JFrame {
-  private int play_win = 0, comp_win = 0, same_win = 0;
+  private boolean mode = true;
+  Coin coin = new Coin();
+
+  Vendingmachine ven = new Vendingmachine();
   private JLabel lblPlay = new JLabel("");
   private JLabel lblComp = new JLabel("現為購買模式");
   private JLabel lblTotalmoney = new JLabel("使用者金額 : 0");
   private JLabel lblChange = new JLabel("找零 : 0");
   private JLabel lblInputmony = new JLabel("投入金額 : 0");
+  private JLabel lblbottlewater = new JLabel(ven.bottleWater.getPrice()+"元");
+  private JLabel lblredTea = new JLabel(ven.redTea.getPrice()+"元");
+  private JLabel lblgreenTea = new JLabel(ven.greanTea.getPrice()+"元");
+  private JLabel lblcola = new JLabel(ven.Cola.getPrice()+"元");
+  private JLabel lblsarsi = new JLabel(ven.sarSi.getPrice()+"元");
+  private JLabel lblcoffee = new JLabel(ven.coffee.getPrice()+"元");
   
   private JButton btnBuyingmode = new JButton("購買模式");
   private JButton btnRefill = new JButton("補貨模式");
@@ -23,10 +32,7 @@ class CGameF extends JFrame {
   private JButton btnOnedollar = new JButton("1元");
   private JButton btnFivedollar = new JButton("5元");
   private JButton btnTendollar = new JButton("10元");
-  boolean mode = true;
-  Coin coin = new Coin();
 
-  Vendingmachine ven = new Vendingmachine();
 
   public CGameF() {
     // 副標
@@ -45,7 +51,7 @@ class CGameF extends JFrame {
     add(lblChange);
     lblInputmony.setBounds(370, 170, 150, 30);
     add(lblInputmony);
-    // 飲料選項
+    // 飲料按鈕
     
     btnBottlewater.setBounds(10, 90, 90, 30);
     add(btnBottlewater);
@@ -55,11 +61,23 @@ class CGameF extends JFrame {
     add(btnGreentea);
     btnCola.setBounds(10, 180, 90, 30);
     add(btnCola);
-
     btnSarsi.setBounds(130, 180, 90, 30);
     add(btnSarsi);
     btnCoffee.setBounds(250, 180, 90, 30);
     add(btnCoffee);
+    //飲料價錢
+    lblbottlewater.setBounds(40, 120, 90, 30);
+    add(lblbottlewater);
+    lblredTea.setBounds(160, 120, 90, 30);
+    add(lblredTea);
+    lblgreenTea.setBounds(280, 120, 90, 30);
+    add(lblgreenTea);
+    lblcola.setBounds(40, 210, 90, 30);
+    add(lblcola);
+    lblsarsi.setBounds(160, 210, 90, 30);
+    add(lblsarsi);
+    lblcoffee.setBounds(280, 210, 90, 30);
+    add(lblcoffee);
     // 零錢
     btnOnedollar.setBounds(370, 210, 90, 30);
     add(btnOnedollar);
@@ -248,22 +266,45 @@ class CGameF extends JFrame {
       
 
       if (e.getSource() == btnOnedollar) {
+        if(mode == true){
         coin.insertCoin(coin.getTotalmoney(), 1);
         lblInputmony.setText("投入金額 : 1");
         lblTotalmoney.setText("使用者金額 : " + coin.getTotalmoney());
         checkLight(coin.getTotalmoney());
+        }
+        else{
+          lblComp.setText("補貨模式無法投幣");
+          lblPlay.setText("");
+          checkLight(coin.getTotalmoney());
+        }
       }
       if (e.getSource() == btnFivedollar) {
-        coin.insertCoin(coin.getTotalmoney(), 5);
-        lblInputmony.setText("投入金額 : 5");
-        lblTotalmoney.setText("使用者金額 : " + coin.getTotalmoney());
-        checkLight(coin.getTotalmoney());
+        if(mode == true){
+          coin.insertCoin(coin.getTotalmoney(), 5);
+          lblInputmony.setText("投入金額 : 5");
+          lblTotalmoney.setText("使用者金額 : " + coin.getTotalmoney());
+          checkLight(coin.getTotalmoney());
+        }
+        else{
+          lblComp.setText("補貨模式無法投幣");
+          lblPlay.setText("");
+          checkLight(coin.getTotalmoney());
+        }
+        
       }
       if (e.getSource() == btnTendollar) {
-        coin.insertCoin(coin.getTotalmoney(), 10);
-        lblInputmony.setText("投入金額 : 10");
-        lblTotalmoney.setText("使用者金額 : " + coin.getTotalmoney());
-        checkLight(coin.getTotalmoney());
+        if(mode == true){
+          coin.insertCoin(coin.getTotalmoney(), 10);
+          lblInputmony.setText("投入金額 : 10");
+          lblTotalmoney.setText("使用者金額 : " + coin.getTotalmoney());
+          checkLight(coin.getTotalmoney());
+        }
+        else{
+          lblComp.setText("補貨模式無法投幣");
+          lblPlay.setText("");
+          checkLight(coin.getTotalmoney());
+        }
+        
       }
       else if(e.getSource() == btnBuyingmode){
         mode = true;
