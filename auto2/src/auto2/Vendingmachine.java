@@ -16,11 +16,11 @@ public class Vendingmachine {
 	Drink coffee = new Drink("咖啡",30,3);
 	
 	
-	public int pay(int totalmoney ,String name){
+	public int pay(int totalmoney ,int num){
 	  	
-	  	if(name == "礦泉水"){
-			if(totalmoney >= bottleWater.getPrice() && bottleWater.getQuantity() > 0){
-				totalmoney -= bottleWater.getPrice();
+	  	if(num == 0){
+			if(enoughMoney(totalmoney, num) && enoughQuantity(num)){
+				totalmoney = charge(bottleWater.getPrice(),totalmoney);
 				bottleWater.setQuantity(bottleWater.getQuantity()-1);
 				return totalmoney;
 			}
@@ -28,9 +28,59 @@ public class Vendingmachine {
 				return -1 ;
 			}
 		  }
-		return -1;
+		  if(num == 1){
+			if(enoughMoney(totalmoney, num) && enoughQuantity(num)){
+				totalmoney = charge(redTea.getPrice(),totalmoney);
+				redTea.setQuantity(redTea.getQuantity()-1);
+				return totalmoney;
+			}
+			else {
+				return -1 ;
+			}
+		  }
+		  if(num == 2){
+			if(enoughMoney(totalmoney, num) && enoughQuantity(num)){
+				totalmoney = charge(greanTea.getPrice(),totalmoney);
+				greanTea.setQuantity(greanTea.getQuantity()-1);
+				return totalmoney;
+			}
+			else {
+				return -1 ;
+			}
+		  }
+		  if(num == 3){
+			if(enoughMoney(totalmoney, num) && enoughQuantity(num)){
+				totalmoney = charge(Cola.getPrice(),totalmoney);
+				Cola.setQuantity(Cola.getQuantity()-1);
+				return totalmoney;
+			}
+			else {
+				return -1 ;
+			}
+		  }
+		  if(num == 4){
+			if(enoughMoney(totalmoney, num) && enoughQuantity(num)){
+				totalmoney = charge(sarSi.getPrice(),totalmoney);
+				sarSi.setQuantity(sarSi.getQuantity()-1);
+				return totalmoney;
+			}
+			else {
+				return -1 ;
+			}
+		  }
+		  if(num == 5){
+			if(enoughMoney(totalmoney, num) && enoughQuantity(num)){
+				totalmoney = charge(coffee.getPrice(),totalmoney);
+				coffee.setQuantity(coffee.getQuantity()-1);
+				return totalmoney;
+			}
+			else {
+				return -1 ;
+			}
+		  }
+		
 	  
-	  	
+	  	return -1;
 		}
 	public void refill(int num){
 		if(num == 0){

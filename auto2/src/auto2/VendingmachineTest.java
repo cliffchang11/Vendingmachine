@@ -1,7 +1,6 @@
 package auto2;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,25 +11,25 @@ class VendingmachineTest {
 	@Test
 	void testPay1() {
 		Vendingmachine ven = new Vendingmachine();
-		assertEquals(10, ven.pay(20, "礦泉水"));
+		assertEquals(10, ven.pay(20, "蝷行�偌"));
 	}
 	
 	@Test
 	void testPay2() {
 		Vendingmachine ven = new Vendingmachine();
-		assertEquals(0, ven.pay(10, "礦泉水"));
+		assertEquals(0, ven.pay(10, "蝷行�偌"));
 	}
 
 	@Test
 	void testPay3() {
 		Vendingmachine ven = new Vendingmachine();
-		assertEquals(5, ven.pay(15, "礦泉水"));
+		assertEquals(5, ven.pay(15, "蝷行�偌"));
 	}
 	
 	@Test
 	void testPay4() {
 		Vendingmachine ven = new Vendingmachine();
-		assertEquals(-1, ven.pay(5, "礦泉水"));
+		assertEquals(-1, ven.pay(5, "蝷行�偌"));
 	}
 	
 	@Test
