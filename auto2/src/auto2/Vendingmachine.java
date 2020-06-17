@@ -32,6 +32,26 @@ public class Vendingmachine {
 	  
 	  	
 		}
+	public void refill(int num){
+		if(num == 0){
+			bottleWater.setQuantity(bottleWater.getQuantity()+1);
+		}
+		else if(num == 1){
+			redTea.setQuantity(redTea.getQuantity()+1);
+		}
+		else if(num == 2 ){
+			greanTea.setQuantity(greanTea.getQuantity()+1);
+		}
+		else if(num == 3){
+			Cola.setQuantity(Cola.getQuantity()+1);
+		}
+		else if(num == 4){
+			sarSi.setQuantity(sarSi.getQuantity()+1);
+		}
+		else{
+			coffee.setQuantity(coffee.getQuantity()+1);
+		}
+	}
 	public boolean enoughMoney(int totalmoney,int num){
 		if(num == 0){
 			if(totalmoney >= bottleWater.getPrice()){
