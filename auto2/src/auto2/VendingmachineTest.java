@@ -11,10 +11,44 @@ class VendingmachineTest {
 	@Test
 	void testPay() {
 		Vendingmachine ven = new Vendingmachine();
+		
+		assertEquals(-1, ven.pay(10, 6));
+		
 		assertEquals(10, ven.pay(20, 0));
-		assertEquals(-1, ven.pay(6, 0));
-		assertEquals(5, ven.pay(15,0));
-		assertEquals(-1, ven.pay(5, 0));
+		assertEquals(-1, ven.pay(0, 0));
+		ven.bottleWater.setQuantity(0);
+		assertEquals(-1, ven.pay(10, 0));
+		assertEquals(-1, ven.pay(0, 0));
+		
+		assertEquals(10, ven.pay(25, 1));
+		assertEquals(-1, ven.pay(0, 1));
+		ven.redTea.setQuantity(0);
+		assertEquals(-1, ven.pay(25, 1));
+		assertEquals(-1, ven.pay(0, 1));
+		
+		assertEquals(10, ven.pay(25, 2));
+		assertEquals(-1, ven.pay(0, 2));
+		ven.greanTea.setQuantity(0);
+		assertEquals(-1, ven.pay(25, 2));
+		assertEquals(-1, ven.pay(0, 2));
+		
+		assertEquals(10, ven.pay(30, 3));
+		assertEquals(-1, ven.pay(0, 3));
+		ven.Cola.setQuantity(0);
+		assertEquals(-1, ven.pay(25, 3));
+		assertEquals(-1, ven.pay(0, 3));
+		
+		assertEquals(10, ven.pay(30, 4));
+		assertEquals(-1, ven.pay(0, 4));
+		ven.sarSi.setQuantity(0);
+		assertEquals(-1, ven.pay(30, 4));
+		assertEquals(-1, ven.pay(0, 4));
+		
+		assertEquals(10, ven.pay(40, 5));
+		assertEquals(-1, ven.pay(0, 5));
+		ven.coffee.setQuantity(0);
+		assertEquals(-1, ven.pay(40, 5));
+		assertEquals(-1, ven.pay(0, 5));
 	}
 	
 	
@@ -56,6 +90,7 @@ class VendingmachineTest {
 		assertEquals(true, ven.enoughQuantity(3));
 		assertEquals(true, ven.enoughQuantity(4));
 		assertEquals(true, ven.enoughQuantity(5));
+		assertEquals(false, ven.enoughQuantity(6));
 	}
 
 	@Test
