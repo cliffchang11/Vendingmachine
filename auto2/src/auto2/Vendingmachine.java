@@ -6,14 +6,14 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 public class Vendingmachine {
 	
-	static String drink[][]={{"礦泉水","10"},{"红茶","15"},{"綠茶","15"},{"可樂","20"},{"沙士","20"},{"咖啡","30"}};
+	
 
-	Drink bottleWater = new Drink("礦泉水",10,3);
-	Drink redTea = new Drink("紅茶",15,3);
-	Drink greanTea = new Drink("綠茶",15,3);
-	Drink Cola = new Drink("可樂",20,3);
-	Drink sarSi = new Drink("沙士",20,3);
-	Drink coffee = new Drink("咖啡",30,3);
+	Drink bottleWater = new Drink(0,10,3);
+	Drink redTea = new Drink(1,15,3);
+	Drink greanTea = new Drink(2,15,3);
+	Drink Cola = new Drink(3,20,3);
+	Drink sarSi = new Drink(4,20,3);
+	Drink coffee = new Drink(5,30,3);
 	
 	
 	public int pay(int totalmoney ,int num){

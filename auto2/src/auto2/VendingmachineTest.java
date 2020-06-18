@@ -12,7 +12,7 @@ class VendingmachineTest {
 	void testPay() {
 		Vendingmachine ven = new Vendingmachine();
 		assertEquals(10, ven.pay(20, 0));
-		assertEquals(0, ven.pay(10, 0));
+		assertEquals(-1, ven.pay(6, 0));
 		assertEquals(5, ven.pay(15,0));
 		assertEquals(-1, ven.pay(5, 0));
 	}
@@ -40,10 +40,13 @@ class VendingmachineTest {
 
 		assertEquals(true, ven.enoughMoney(30, 5));
 		assertEquals(false, ven.enoughMoney(15, 5));
+		
+		assertEquals(false, ven.enoughMoney(30, 6));
+
 	}
 
 	
-	s\
+	
 	@Test
 	void testEnoughQuantity() {
 		Vendingmachine ven = new Vendingmachine();

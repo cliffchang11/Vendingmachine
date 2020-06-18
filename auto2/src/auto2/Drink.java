@@ -1,13 +1,13 @@
 package auto2;
 
 public class Drink {
-    private String name;
+    private int num;
     private int price;
     private int quantity;
     
 
-    public String getName() {
-        return name;
+    public int getNum() {
+        return num;
     }
 
     public int getPrice() {
@@ -17,8 +17,8 @@ public class Drink {
     public int getQuantity() {
         return quantity;
     }
-    public Drink(String name,int price, int quantity){
-        this.name = name;
+    public Drink(int num,int price, int quantity){
+        this.num = num;
         this.price = price ;
         this.quantity = quantity;
     }
