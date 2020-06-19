@@ -2,6 +2,8 @@ package auto2;
 
 import static org.junit.Assert.*;
 
+import java.awt.event.ActionEvent;
+
 import org.junit.jupiter.api.Test;
 
 import auto2.Vendingmachine;
@@ -79,7 +81,17 @@ class VendingmachineTest {
 
 	}
 
-	
+	@Test
+	void testRefill() {
+		Vendingmachine ven = new Vendingmachine();
+		assertEquals(true, ven.enoughQuantity(0));
+		assertEquals(true, ven.enoughQuantity(1));
+		assertEquals(true, ven.enoughQuantity(2));
+		assertEquals(true, ven.enoughQuantity(3));
+		assertEquals(true, ven.enoughQuantity(4));
+		assertEquals(true, ven.enoughQuantity(5));
+		assertEquals(false, ven.enoughQuantity(6));
+	}
 	
 	@Test
 	void testEnoughQuantity() {
@@ -100,7 +112,12 @@ class VendingmachineTest {
 		assertEquals(10, ven.charge(15, 25));
 		assertEquals(20, ven.charge(30, 50));
 	}
-	
+	@Test
+	void testCGameF() {
+		CGameF g = new CGameF();
+		ActionEvent e = null ;
+		e.setSource(g.btnBottlewater);
+	}
 	
 
 }
