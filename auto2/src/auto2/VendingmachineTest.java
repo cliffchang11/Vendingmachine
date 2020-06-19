@@ -82,13 +82,13 @@ class VendingmachineTest {
 	@Test
 	void testRefill() {
 		Vendingmachine ven = new Vendingmachine();
-		assertEquals(true, ven.enoughQuantity(0));
-		assertEquals(true, ven.enoughQuantity(1));
-		assertEquals(true, ven.enoughQuantity(2));
-		assertEquals(true, ven.enoughQuantity(3));
-		assertEquals(true, ven.enoughQuantity(4));
-		assertEquals(true, ven.enoughQuantity(5));
-		assertEquals(false, ven.enoughQuantity(6));
+		ven.refill(0);
+		ven.refill(1);
+		ven.refill(2);
+		ven.refill(3);
+		ven.refill(4);
+		ven.refill(5);
+
 	}
 
 	@Test
