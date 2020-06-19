@@ -20,18 +20,18 @@ class CGameF extends JFrame {
 	private JLabel lblsarsi = new JLabel(ven.sarSi.getPrice() + "元");
 	private JLabel lblcoffee = new JLabel(ven.coffee.getPrice() + "元");
 
-	private JButton btnBuyingmode = new JButton("購買模式");
-	private JButton btnRefill = new JButton("補貨模式");
+	public JButton btnBuyingmode = new JButton("購買模式");
+	public JButton btnRefill = new JButton("補貨模式");
 	public JButton btnBottlewater = new JButton("礦泉水 X");
-	private JButton btnRedtea = new JButton("红茶 X");
-	private JButton btnGreentea = new JButton("綠茶 X");
-	private JButton btnCola = new JButton("可樂 X");
-	private JButton btnSarsi = new JButton("沙士 X");
-	private JButton btnCoffee = new JButton("咖啡 X");
+	public JButton btnRedtea = new JButton("红茶 X");
+	public JButton btnGreentea = new JButton("綠茶 X");
+	public JButton btnCola = new JButton("可樂 X");
+	public JButton btnSarsi = new JButton("沙士 X");
+	public JButton btnCoffee = new JButton("咖啡 X");
 
-	private JButton btnOnedollar = new JButton("1元");
-	private JButton btnFivedollar = new JButton("5元");
-	private JButton btnTendollar = new JButton("10元");
+	public JButton btnOnedollar = new JButton("1元");
+	public JButton btnFivedollar = new JButton("5元");
+	public JButton btnTendollar = new JButton("10元");
 
 	public CGameF() {
 		// 副標
