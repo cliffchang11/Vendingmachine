@@ -53,6 +53,14 @@ class VendingmachineTest {
 		assertEquals(-1, ven.pay(0, 5));
 	}
 
+	
+	@Test
+	void testDrink() {
+		Vendingmachine ven = new Vendingmachine();
+		ven.sarSi.getNum();
+	}
+	
+	
 	@Test
 	void testEnoughMoney() {
 		Vendingmachine ven = new Vendingmachine();
