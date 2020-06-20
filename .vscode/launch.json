@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CGameF<Vendingmachine>",
+            "request": "launch",
+            "mainClass": "auto.CGameF",
+            "projectName": "Vendingmachine"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Vendingmachine<Vendingmachine>",
+            "request": "launch",
+            "mainClass": "auto.Vendingmachine",
+            "projectName": "Vendingmachine"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CGameF<Vendingmachine>(1)",
+            "request": "launch",
+            "mainClass": "auto2.CGameF",
+            "projectName": "Vendingmachine"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CGameF<auto2>",
+            "request": "launch",
+            "mainClass": "auto2.CGameF",
+            "projectName": "auto2"
+        }
+    ]
+}

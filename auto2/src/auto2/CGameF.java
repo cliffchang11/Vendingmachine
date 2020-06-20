@@ -10,9 +10,9 @@ class CGameF extends JFrame {
 	Vendingmachine ven = new Vendingmachine();
 	public JLabel lblPlay = new JLabel("");
 	public JLabel lblComp = new JLabel("現為購買模式");
-	private JLabel lblTotalmoney = new JLabel("使用者金額 : 0");
+	public JLabel lblTotalmoney = new JLabel("使用者金額 : 0");
 	private JLabel lblChange = new JLabel("找零 : 0");
-	private JLabel lblInputmony = new JLabel("投入金額 : 0");
+	public JLabel lblInputmony = new JLabel("投入金額 : 0");
 	private JLabel lblbottlewater = new JLabel(ven.bottleWater.getPrice() + "元");
 	private JLabel lblredTea = new JLabel(ven.redTea.getPrice() + "元");
 	private JLabel lblgreenTea = new JLabel(ven.greanTea.getPrice() + "元");
