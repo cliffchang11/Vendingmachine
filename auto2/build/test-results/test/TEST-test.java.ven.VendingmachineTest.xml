@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.ven.VendingmachineTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-06-21T21:00:23" hostname="DESKTOP-GMKJ2BG" time="0.726">
+  <properties/>
+  <testcase name="Systemtest()" classname="test.java.ven.VendingmachineTest" time="0.55"/>
+  <testcase name="testPay()" classname="test.java.ven.VendingmachineTest" time="0.001"/>
+  <testcase name="testFalseMode()" classname="test.java.ven.VendingmachineTest" time="0.08"/>
+  <testcase name="testDrink()" classname="test.java.ven.VendingmachineTest" time="0.001"/>
+  <testcase name="testEnoughQuantity()" classname="test.java.ven.VendingmachineTest" time="0.002"/>
+  <testcase name="testCGameFDrink()" classname="test.java.ven.VendingmachineTest" time="0.041"/>
+  <testcase name="testCGameFDollar()" classname="test.java.ven.VendingmachineTest" time="0.037"/>
+  <testcase name="testCharge()" classname="test.java.ven.VendingmachineTest" time="0.001"/>
+  <testcase name="testEnoughMoney()" classname="test.java.ven.VendingmachineTest" time="0.001"/>
+  <testcase name="testRefill()" classname="test.java.ven.VendingmachineTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
