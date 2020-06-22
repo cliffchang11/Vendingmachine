@@ -1,0 +1,469 @@
+
+%main.java.ven.Vendingmachine#pay(II)Ih
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java ("25"15"5"30"20"10"1*�
+24h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java& (4��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java& (9
+%10boolean"/main.java.ven.Vendingmachine#enoughQuantity(I)Z* 
+main.java.ven.Vendingmachine*
+""2enoughQuantity(I)*
+22
+23*�
+25h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java ("
+%9boolean"-main.java.ven.Vendingmachine#enoughMoney(II)Z* 
+main.java.ven.Vendingmachine*
+""*
+""2enoughMoney(II)*
+24
+22*�
+27h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java ("r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (
+""*�
+28h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (#
+%2main.java.ven.Drink"__id*1*/
+main.java.ven.Vendingmachine"
+bottleWater��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (.	
+%3int"main.java.ven.Drink#getPrice()I*
+
+%2main.java.ven.Drink2
+getPrice()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (:	
+%4int"(main.java.ven.Vendingmachine#charge(II)I* 
+main.java.ven.Vendingmachine*
+	
+%3int*
+""2
+charge(II)�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (
+%5main.java.ven.Drink"__id*1*/
+main.java.ven.Vendingmachine"
+bottleWater�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java ('
+%6main.java.ven.Drink"__id*1*/
+main.java.ven.Vendingmachine"
+bottleWater��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (5	
+%7int""main.java.ven.Drink#getQuantity()I*
+
+%6main.java.ven.Drink2getQuantity()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (8
+
+%8void"#main.java.ven.Drink#setQuantity(I)V*
+
+%5main.java.ven.Drink*
+""2setQuantity(I)"r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (
+""*�
+29h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java& (4��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java& (9
+%1boolean"/main.java.ven.Vendingmachine#enoughQuantity(I)Z* 
+main.java.ven.Vendingmachine*
+""2enoughQuantity(I)*
+27
+28*�
+30h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java ("
+%0boolean"-main.java.ven.Vendingmachine#enoughMoney(II)Z* 
+main.java.ven.Vendingmachine*
+""*
+""2enoughMoney(II)*
+27
+29*�
+10h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java; ;(��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java; ;("
+%36boolean"-main.java.ven.Vendingmachine#enoughMoney(II)Z* 
+main.java.ven.Vendingmachine*
+""*
+""2enoughMoney(II)*
+7
+9*�
+12h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java7 7("r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java7 7(
+""*�
+13h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java2 2(�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java2 2(
+%29main.java.ven.Drink"__id***(
+main.java.ven.Vendingmachine"
+Cola��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java2 2('
+
+%30int"main.java.ven.Drink#getPrice()I*
+
+%29main.java.ven.Drink2
+getPrice()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java2 2(3
+
+%31int"(main.java.ven.Vendingmachine#charge(II)I* 
+main.java.ven.Vendingmachine*
+
+
+%30int*
+""2
+charge(II)�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java3 3(
+%32main.java.ven.Drink"__id***(
+main.java.ven.Vendingmachine"
+Cola�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java3 3(
+%33main.java.ven.Drink"__id***(
+main.java.ven.Vendingmachine"
+Cola��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java3 3('
+
+%34int""main.java.ven.Drink#getQuantity()I*
+
+%33main.java.ven.Drink2getQuantity()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java3 3(*
+%35void"#main.java.ven.Drink#setQuantity(I)V*
+
+%32main.java.ven.Drink*
+""2setQuantity(I)"r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java4 4(
+""*�
+14h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java1& 1(4��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java1& 1(9
+%28boolean"/main.java.ven.Vendingmachine#enoughQuantity(I)Z* 
+main.java.ven.Vendingmachine*
+""2enoughQuantity(I)*
+13
+12*�
+15h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java1 1(��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java1 1("
+%27boolean"-main.java.ven.Vendingmachine#enoughMoney(II)Z* 
+main.java.ven.Vendingmachine*
+""*
+""2enoughMoney(II)*
+14
+12*�
+17h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java- -("r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java- -(
+""*�
+18h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java( ((�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java( (( 
+%20main.java.ven.Drink"__id*.*,
+main.java.ven.Vendingmachine"
+
+greanTea��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java( ((+
+
+%21int"main.java.ven.Drink#getPrice()I*
+
+%20main.java.ven.Drink2
+getPrice()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java( ((7
+
+%22int"(main.java.ven.Vendingmachine#charge(II)I* 
+main.java.ven.Vendingmachine*
+
+
+%21int*
+""2
+charge(II)�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java) )(
+%23main.java.ven.Drink"__id*.*,
+main.java.ven.Vendingmachine"
+
+greanTea�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java) )(!
+%24main.java.ven.Drink"__id*.*,
+main.java.ven.Vendingmachine"
+
+greanTea��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java) )(/
+
+%25int""main.java.ven.Drink#getQuantity()I*
+
+%24main.java.ven.Drink2getQuantity()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java) )(2
+%26void"#main.java.ven.Drink#setQuantity(I)V*
+
+%23main.java.ven.Drink*
+""2setQuantity(I)"r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java* *(
+""*�
+19h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java'& '(4��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java'& '(9
+%19boolean"/main.java.ven.Vendingmachine#enoughQuantity(I)Z* 
+main.java.ven.Vendingmachine*
+""2enoughQuantity(I)*
+17
+18*�
+1h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaP P("r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaP P(
+""*�
+2h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaK K("r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaK K(
+""*�
+3h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaF F(�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaF F(
+%47main.java.ven.Drink"__id*,**
+main.java.ven.Vendingmachine"
+coffee��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaF F()
+
+%48int"main.java.ven.Drink#getPrice()I*
+
+%47main.java.ven.Drink2
+getPrice()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaF F(5
+
+%49int"(main.java.ven.Vendingmachine#charge(II)I* 
+main.java.ven.Vendingmachine*
+
+
+%48int*
+""2
+charge(II)�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaG G(
+
+%50main.java.ven.Drink"__id*,**
+main.java.ven.Vendingmachine"
+coffee�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaG G(
+%51main.java.ven.Drink"__id*,**
+main.java.ven.Vendingmachine"
+coffee��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaG G(+
+
+%52int""main.java.ven.Drink#getQuantity()I*
+
+%51main.java.ven.Drink2getQuantity()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaG G(.
+%53void"#main.java.ven.Drink#setQuantity(I)V*
+
+%50main.java.ven.Drink*
+""2setQuantity(I)"r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaH H(
+""*�
+4h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaE& E(4��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaE& E(9
+%46boolean"/main.java.ven.Vendingmachine#enoughQuantity(I)Z* 
+main.java.ven.Vendingmachine*
+""2enoughQuantity(I)*
+2
+3*�
+5h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaE E(��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaE E("
+%45boolean"-main.java.ven.Vendingmachine#enoughMoney(II)Z* 
+main.java.ven.Vendingmachine*
+""*
+""2enoughMoney(II)*
+2
+4*�
+7h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaA A("r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.javaA A(
+""*�
+8h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java< <(�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java< <(
+%38main.java.ven.Drink"__id*+*)
+main.java.ven.Vendingmachine"
+sarSi��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java< <((
+
+%39int"main.java.ven.Drink#getPrice()I*
+
+%38main.java.ven.Drink2
+getPrice()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java< <(4
+
+%40int"(main.java.ven.Vendingmachine#charge(II)I* 
+main.java.ven.Vendingmachine*
+
+
+%39int*
+""2
+charge(II)�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java= =(	
+%41main.java.ven.Drink"__id*+*)
+main.java.ven.Vendingmachine"
+sarSi�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java= =(
+%42main.java.ven.Drink"__id*+*)
+main.java.ven.Vendingmachine"
+sarSi��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java= =()
+
+%43int""main.java.ven.Drink#getQuantity()I*
+
+%42main.java.ven.Drink2getQuantity()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java= =(,
+%44void"#main.java.ven.Drink#setQuantity(I)V*
+
+%41main.java.ven.Drink*
+""2setQuantity(I)"r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java> >(
+""*�
+9h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java;& ;(4��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java;& ;(9
+%37boolean"/main.java.ven.Vendingmachine#enoughQuantity(I)Z* 
+main.java.ven.Vendingmachine*
+""2enoughQuantity(I)*
+7
+8*�
+20h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java' '(��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java' '("
+%18boolean"-main.java.ven.Vendingmachine#enoughMoney(II)Z* 
+main.java.ven.Vendingmachine*
+""*
+""2enoughMoney(II)*
+17
+19*�
+22h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java# #("r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java# #(
+""*�
+23h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (
+%11main.java.ven.Drink"__id*,**
+main.java.ven.Vendingmachine"
+redTea��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java ()
+
+%12int"main.java.ven.Drink#getPrice()I*
+
+%11main.java.ven.Drink2
+getPrice()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (5
+
+%13int"(main.java.ven.Vendingmachine#charge(II)I* 
+main.java.ven.Vendingmachine*
+
+
+%12int*
+""2
+charge(II)�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (
+
+%14main.java.ven.Drink"__id*,**
+main.java.ven.Vendingmachine"
+redTea�
+�
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (
+%15main.java.ven.Drink"__id*,**
+main.java.ven.Vendingmachine"
+redTea��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (+
+
+%16int""main.java.ven.Drink#getQuantity()I*
+
+%15main.java.ven.Drink2getQuantity()��
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java (.
+%17void"#main.java.ven.Drink#setQuantity(I)V*
+
+%14main.java.ven.Drink*
+""2setQuantity(I)"r
+h
+^D:/Users/余榮泰/Documents/GitHub/Vendingmachine/auto2/src/main/java/ven/Vendingmachine.java   (
+"":
+"":
+""B 
+main.java.ven.Vendingmachine

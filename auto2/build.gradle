@@ -1,3 +1,6 @@
+plugins {
+  id "org.sonarqube" version "2.8"
+}
 apply plugin: 'java'
 apply plugin: "jacoco"
 
@@ -15,15 +18,33 @@ jacoco {
 
 jacocoTestReport {
     reports {
-        xml.enabled false
-        csv.enabled false
-        html.destination file("${buildDir}/jacocoHtml")
+        xml.enabled true
+         xml.destination file("${buildDir}/reports/jacoco.xml")
     }
+executionData.from = files('build/jacoco/test.exec')   
 }
 
+def allTestCoverageFile = "$buildDir/jacoco/test.exec"
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "wins0117_Vendingmachine"
+    property "sonar.organization", "wins0117"
+    property "sonar.host.url", "https://sonarcloud.io"
+    property "sonar.login", "44bcc74ce1752129114aa00374fbeb13789ef325"
+
+
+  property "sonar.junit.reportsPath","build/test-results/test"
+     property "sonar.sources","src/main/java/ven"
+     property "sonar.tests","src/test/java/ven"
+     property "sonar.test.binaries","build/classes/java/test/test/java/ven"
+ property "sonar.jacoco.reportPath", "${rootProject.buildDir}/jacoco/test.exec"
+}
+}
 
 repositories {
     mavenCentral()
+jcenter()
 }
 
 dependencies {

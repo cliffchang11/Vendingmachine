@@ -1,0 +1,7 @@
+organization=wins0117
+projectKey=wins0117_Vendingmachine
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.8830
+dashboardUrl=https://sonarcloud.io/dashboard?id=wins0117_Vendingmachine
+ceTaskId=AXLb9y8BSHO1mxKbIN-C
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXLb9y8BSHO1mxKbIN-C
