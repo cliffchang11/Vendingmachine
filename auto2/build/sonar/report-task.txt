@@ -3,5 +3,5 @@ projectKey=wins0117_Vendingmachine
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.9086
 dashboardUrl=https://sonarcloud.io/dashboard?id=wins0117_Vendingmachine
-ceTaskId=AXL_DW1Ako-qi8gL8kuN
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXL_DW1Ako-qi8gL8kuN
+ceTaskId=AXL_FbT3GtPNhMXSbzO7
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXL_FbT3GtPNhMXSbzO7

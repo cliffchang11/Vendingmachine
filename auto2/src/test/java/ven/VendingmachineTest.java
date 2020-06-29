@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 
 class VendingmachineTest {
-/*
+
 	@Test
 	void testPay() {
 		Vendingmachine ven = new Vendingmachine();
@@ -43,10 +43,10 @@ class VendingmachineTest {
 		assertEquals(10, ven.pay(30, ven.sarSi));
 		assertEquals(-1, ven.pay(0, ven.sarSi));
 		ven.sarSi.setQuantity(0);
-		assertEquals(-1, ven.pay(30, 4));
-		assertEquals(-1, ven.pay(0, 4));
+		assertEquals(-1, ven.pay(30, ven.sarSi));
+		assertEquals(-1, ven.pay(0, ven.sarSi);
 
-		assertEquals(10, ven.pay(40, 5));
+		assertEquals(10, ven.pay(40, ven.coffee));
 		assertEquals(-1, ven.pay(0, 5));
 		ven.coffee.setQuantity(0);
 		assertEquals(-1, ven.pay(40, 5));
@@ -290,5 +290,5 @@ class VendingmachineTest {
 		assertEquals("使用者金額 : 50",g.lblTotalmoney.getText());
 		assertEquals("礦泉水 X",g.btnBottlewater.getText());
 	}
-	*/
+	
 }

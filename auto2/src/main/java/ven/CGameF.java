@@ -295,32 +295,32 @@ public class CGameF extends JFrame {
 	public void checkLight(int totalmoney) {
 		
 		
-		if (ven.enoughMoney(totalmoney, ven.bottleWater) == true && ven.enoughQuantity(ven.bottleWater)== true) {
+		if (ven.enoughMoney(totalmoney, ven.bottleWater)  && ven.enoughQuantity(ven.bottleWater)) {
 			btnBottlewater.setText("礦泉水 O");
 		} else {
 			btnBottlewater.setText("礦泉水 X");
 		}
-		if (ven.enoughMoney(totalmoney, ven.redTea) == true && ven.enoughQuantity(ven.redTea)== true) {
+		if (ven.enoughMoney(totalmoney, ven.redTea) && ven.enoughQuantity(ven.redTea)) {
 			btnRedtea.setText("紅茶 O");
 		} else {
 			btnRedtea.setText("紅茶 X");
 		}
-		if (ven.enoughMoney(totalmoney, ven.greanTea) == true && ven.enoughQuantity(ven.greanTea)== true) {
+		if (ven.enoughMoney(totalmoney, ven.greanTea)  && ven.enoughQuantity(ven.greanTea)) {
 			btnGreentea.setText("綠茶 O");
 		} else {
 			btnGreentea.setText("綠茶 X");
 		}
-		if (ven.enoughMoney(totalmoney, ven.Cola) == true && ven.enoughQuantity(ven.Cola)== true) {
+		if (ven.enoughMoney(totalmoney, ven.Cola) && ven.enoughQuantity(ven.Cola)) {
 			btnCola.setText("可樂 O");
 		} else {
 			btnCola.setText("可樂 X");
 		}
-		if (ven.enoughMoney(totalmoney, ven.sarSi) == true && ven.enoughQuantity(ven.sarSi)== true) {
+		if (ven.enoughMoney(totalmoney, ven.sarSi) && ven.enoughQuantity(ven.sarSi)) {
 			btnSarsi.setText("沙士 O");
 		} else {
 			btnSarsi.setText("沙士 X");
 		}
-		if (ven.enoughMoney(totalmoney, ven.coffee) == true && ven.enoughQuantity(ven.coffee)== true) {
+		if (ven.enoughMoney(totalmoney, ven.coffee)  && ven.enoughQuantity(ven.coffee)) {
 			btnCoffee.setText("咖啡 O");
 		} else {
 			btnCoffee.setText("咖啡 X");
