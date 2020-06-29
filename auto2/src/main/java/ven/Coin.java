@@ -1,4 +1,4 @@
-package main.java.ven;
+package ven;
 
 public class Coin {
     private int totalmoney = 0;

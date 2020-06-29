@@ -1,4 +1,4 @@
-package main.java.ven;
+package ven;
 
 public class Drink {
     private int num;

@@ -1,4 +1,4 @@
-package main.java.ven;
+package ven;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -111,7 +111,7 @@ public class CGameF extends JFrame {
 			// 只完成礦泉水
 			if (e.getSource() == btnBottlewater) {
 				if (mode == true) {
-					int charge = ven.pay(coin.getTotalmoney(), 0);
+					int charge = ven.pay(coin.getTotalmoney(), ven.bottleWater);
 					if (charge >= 0) {
 						coin.setTotalMoney(charge);
 						lblComp.setText("礦泉水剩餘數量 : " + ven.bottleWater.getQuantity());
@@ -126,14 +126,14 @@ public class CGameF extends JFrame {
 						checkLight(coin.getTotalmoney());
 					}
 				} else {
-					ven.refill(0);
+					ven.refill(ven.bottleWater);
 					lblComp.setText("礦泉水剩餘數量 : " + ven.bottleWater.getQuantity());
 				}
 
 			}
 			if (e.getSource() == btnRedtea) {
 				if (mode == true) {
-					int charge = ven.pay(coin.getTotalmoney(), 1);
+					int charge = ven.pay(coin.getTotalmoney(), ven.redTea);
 					if (charge >= 0) {
 						coin.setTotalMoney(charge);
 						lblComp.setText("紅茶剩餘數量 : " + ven.redTea.getQuantity());
@@ -148,7 +148,7 @@ public class CGameF extends JFrame {
 						checkLight(coin.getTotalmoney());
 					}
 				} else {
-					ven.refill(1);
+					ven.refill(ven.redTea);
 					lblComp.setText("紅茶剩餘數量 : " + ven.redTea.getQuantity());
 
 				}
@@ -156,7 +156,7 @@ public class CGameF extends JFrame {
 			}
 			if (e.getSource() == btnGreentea) {
 				if (mode == true) {
-					int charge = ven.pay(coin.getTotalmoney(), 2);
+					int charge = ven.pay(coin.getTotalmoney(), ven.greanTea);
 					if (charge >= 0) {
 						coin.setTotalMoney(charge);
 						lblComp.setText("綠茶剩餘數量 : " + ven.greanTea.getQuantity());
@@ -171,14 +171,14 @@ public class CGameF extends JFrame {
 						checkLight(coin.getTotalmoney());
 					}
 				} else {
-					ven.refill(2);
+					ven.refill(ven.greanTea);
 					lblComp.setText("綠茶剩餘數量 : " + ven.greanTea.getQuantity());
 				}
 
 			}
 			if (e.getSource() == btnCola) {
 				if (mode == true) {
-					int charge = ven.pay(coin.getTotalmoney(), 3);
+					int charge = ven.pay(coin.getTotalmoney(), ven.Cola);
 					if (charge >= 0) {
 						coin.setTotalMoney(charge);
 						lblComp.setText("可樂剩餘數量 : " + ven.Cola.getQuantity());
@@ -193,14 +193,14 @@ public class CGameF extends JFrame {
 						checkLight(coin.getTotalmoney());
 					}
 				} else {
-					ven.refill(3);
+					ven.refill(ven.Cola);
 					lblComp.setText("可樂剩餘數量 : " + ven.Cola.getQuantity());
 				}
 
 			}
 			if (e.getSource() == btnSarsi) {
 				if (mode == true) {
-					int charge = ven.pay(coin.getTotalmoney(), 4);
+					int charge = ven.pay(coin.getTotalmoney(), ven.sarSi);
 					if (charge >= 0) {
 						coin.setTotalMoney(charge);
 						lblComp.setText("沙士剩餘數量 : " + ven.sarSi.getQuantity());
@@ -215,14 +215,14 @@ public class CGameF extends JFrame {
 						checkLight(coin.getTotalmoney());
 					}
 				} else {
-					ven.refill(4);
+					ven.refill(ven.sarSi);
 					lblComp.setText("沙士剩餘數量 : " + ven.sarSi.getQuantity());
 				}
 
 			}
 			if (e.getSource() == btnCoffee) {
 				if (mode == true) {
-					int charge = ven.pay(coin.getTotalmoney(), 5);
+					int charge = ven.pay(coin.getTotalmoney(), ven.coffee);
 					if (charge >= 0) {
 						coin.setTotalMoney(charge);
 						lblComp.setText("咖啡剩餘數量 : " + ven.coffee.getQuantity());
@@ -237,7 +237,7 @@ public class CGameF extends JFrame {
 						checkLight(coin.getTotalmoney());
 					}
 				} else {
-					ven.refill(5);
+					ven.refill(ven.coffee);
 					lblComp.setText("咖啡剩餘數量 : " + ven.coffee.getQuantity());
 				}
 
@@ -293,38 +293,34 @@ public class CGameF extends JFrame {
 	};
 
 	public void checkLight(int totalmoney) {
-		boolean enoughtMoney[] = new boolean[6];
-		boolean enoughtQuantity[] = new boolean[6];
-		for (int i = 0; i <= 5; i++) {
-			enoughtMoney[i] = ven.enoughMoney(totalmoney, i);
-			enoughtQuantity[i] = ven.enoughQuantity(i);
-		}
-		if (enoughtMoney[0] == true && enoughtQuantity[0] == true) {
+		
+		
+		if (ven.enoughMoney(totalmoney, ven.bottleWater) == true && ven.enoughQuantity(ven.bottleWater)== true) {
 			btnBottlewater.setText("礦泉水 O");
 		} else {
 			btnBottlewater.setText("礦泉水 X");
 		}
-		if (enoughtMoney[1] == true && enoughtQuantity[1] == true) {
+		if (ven.enoughMoney(totalmoney, ven.redTea) == true && ven.enoughQuantity(ven.redTea)== true) {
 			btnRedtea.setText("紅茶 O");
 		} else {
 			btnRedtea.setText("紅茶 X");
 		}
-		if (enoughtMoney[2] == true && enoughtQuantity[2] == true) {
+		if (ven.enoughMoney(totalmoney, ven.greanTea) == true && ven.enoughQuantity(ven.greanTea)== true) {
 			btnGreentea.setText("綠茶 O");
 		} else {
 			btnGreentea.setText("綠茶 X");
 		}
-		if (enoughtMoney[3] == true && enoughtQuantity[3] == true) {
+		if (ven.enoughMoney(totalmoney, ven.Cola) == true && ven.enoughQuantity(ven.Cola)== true) {
 			btnCola.setText("可樂 O");
 		} else {
 			btnCola.setText("可樂 X");
 		}
-		if (enoughtMoney[4] == true && enoughtQuantity[4] == true) {
+		if (ven.enoughMoney(totalmoney, ven.sarSi) == true && ven.enoughQuantity(ven.sarSi)== true) {
 			btnSarsi.setText("沙士 O");
 		} else {
 			btnSarsi.setText("沙士 X");
 		}
-		if (enoughtMoney[5] == true && enoughtQuantity[5] == true) {
+		if (ven.enoughMoney(totalmoney, ven.coffee) == true && ven.enoughQuantity(ven.coffee)== true) {
 			btnCoffee.setText("咖啡 O");
 		} else {
 			btnCoffee.setText("咖啡 X");
